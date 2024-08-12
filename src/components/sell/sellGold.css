@@ -1,0 +1,78 @@
+.sell-form {
+    border: 1px solid #ccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.60);
+    border: 1px solid #ccc;
+    max-width: 700px; /* Set max-width to control the width of the form */
+    margin: 20px auto; /* Center the form horizontally and add top margin */
+}
+
+.sell-options {
+    text-align: left;
+}
+
+.sell-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.main {
+    text-align: center;
+    color: #571613;
+    margin-bottom: 20px;
+}
+
+.left-section,
+.center-section,
+.right-section {
+    flex: 1;
+    text-align: left;
+}
+
+.left-section {
+    margin-right: 20px;
+}
+
+.center-section {
+    margin-right: 20px;
+}
+
+.underline-text input {
+    border: none;
+    border-bottom: 1px solid black;
+    background: none;
+    padding: 0;
+    margin-left: 5px;
+    width: calc(100% - 25px);
+}
+
+.h2 {
+    color: #571613;
+}
+
+.btn-success {
+    background-color: #A67B5B;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    align-items: left;
+}
+
+.underline-text::after {
+    content: '';
+    position: absolute;
+    left: 2;
+    bottom: -5px;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.h3 {
+    text-align: left;
+    width: 100%;
+}
+

@@ -1,0 +1,45 @@
+.wallet-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.60);
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 450px;
+  height: 300px;
+ margin-left: 30%;
+}
+
+.wallet-image img {
+  width: 100px;
+  height: auto;
+}
+
+.wallet-info {
+  margin-left: 20px;
+  flex: 1;
+}
+
+.balance-info p {
+  margin: 5px 0;
+  font-weight: 500;
+}
+
+.actions button {
+  flex-basis: 50%;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 17px;
+  background-color: #dcaf26;
+  color: #6b201a;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.actions button:hover {
+  background-color: #ffd342;
+}

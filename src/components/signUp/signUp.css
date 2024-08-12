@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.register-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  border-radius: 8px;
+  margin: 20px auto;
+}
+
+.register-form {
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.60);
+  /* width: 700px; */ /* Remove width */
+  max-width: 90%; /* Limit maximum width */
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+.register-heading {
+  font-size: 28px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #571613;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.personal-info {
+  /* width: 50%; */ /* Remove width */
+  float: left;
+}
+
+.address-info {
+  /* width: 50%; */ /* Remove width */
+  float: right;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.form-group {
+  margin-top: 7px;
+}
+
+.form-group input {
+  width: 90%; /* Adjusted width */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  margin-top: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #C5A56F;
+  outline: none;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.required {
+  color: red;
+}
+
+.btn-register {
+  width: 95%;
+  margin: 20px auto;
+  padding: 12px 30px;
+  text-align: center;
+  font-size: 17px;
+  background-color: #dcaf26;
+  color: white;
+  background-color: #571613;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.btn-register:hover {
+  background-color: #ffd342;
+}

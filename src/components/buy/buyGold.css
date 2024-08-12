@@ -1,0 +1,71 @@
+.sell-form {
+    border: 1px solid #ccc;
+    width: 80%;
+    height: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+}
+
+.sell-options {
+    text-align: left;
+}
+ 
+.sell-container {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.main {
+    text-align: center;
+    color: #571613;
+}
+ 
+.left-section,
+.center-section,
+.right-section {
+    flex: 1;
+    text-align: center;
+}
+ 
+.left-section {
+    text-align: left;
+}
+ 
+.underline-text input {
+    border: none;
+    border-bottom: 1px solid black;
+    /* Adjust the underline style */
+    background: none;
+    padding: 0;
+    margin-left: 5px;
+    /* Adjust the spacing between "Rs." and the input field */
+}
+ 
+.h2 {
+    color: #571613;
+}
+ 
+.btn-success {
+    background-color: #571613;
+    color: white;
+    width: 30%;
+    height: 25%;
+    font-weight: bold;
+    align-items: left;
+}
+ 
+.underline-text::after {
+    content: '';
+    position: absolute;
+    left: 2;
+    bottom: -5px;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+ 
+.h3 {
+    text-align: left;
+}

@@ -1,0 +1,12 @@
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 3px;
+  height: 3px;
+  padding: 0;
+  margin-right: 3px;
+} 
+
+.custom-carousel .carousel-indicators [data-bs-target] {
+  display: none; 
+}

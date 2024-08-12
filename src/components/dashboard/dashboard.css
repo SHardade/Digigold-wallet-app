@@ -1,0 +1,60 @@
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(3,  1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.transaction-list {
+    list-style: none;
+    padding: 0;
+}
+
+.transaction-item {
+    margin-bottom: 10px;
+}
+
+.balance,
+.price,
+.time {
+    font-weight: bold;
+}
+
+.transactions {
+    background-color: #FFDDC1;
+}
+
+.user-details {
+    background-color: #C2E0FF;
+}
+
+.wallet-balance {
+    background-color: #C8F7C5;
+}
+
+.gold-price {
+    background-color: #FFFFCC;
+}
+
+.timer {
+    background-color: #F2F2F2;
+}
+
+.graphs {
+    background-color: #E0E0E0;
+}

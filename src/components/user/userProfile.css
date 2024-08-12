@@ -1,0 +1,50 @@
+.user-profile-container {
+
+    max-width: 400px;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 33%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.60);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+ 
+  .profile-picture-container {
+    margin-top: 10px;
+    text-align: center;
+  }
+   
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+ 
+  .user-profile-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid ; 
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+ 
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #571613;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+   
+  button:hover {
+    background-color:#571613; 
+  }
+   
+  b {
+    color:#571613; 
+  }

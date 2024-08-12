@@ -1,0 +1,53 @@
+.vendor-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .vendor-form {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.60);
+  }
+  
+  .vendor-form label {
+    font-weight: bold;
+    color: #571613;
+  }
+  
+  .vendor-form input[type="text"],
+  .vendor-form input[type="password"],
+  .vendor-form input[type="email"],
+  .vendor-form input[type="tel"],
+  .vendor-form input[type="url"],
+  .vendor-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .vendor-form textarea {
+    height: 100px;
+  }
+  
+  .vendor-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color:#571613; 
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  
+  

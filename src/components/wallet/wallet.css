@@ -1,0 +1,26 @@
+.wallet {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    flex-direction: column;
+  }
+  
+  .wallet-balance-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .wallet-icon {
+    margin-right: 5px;
+  }
+  
+  .wallet-balance-container p {
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+  
+  .wallet-balance-value {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
